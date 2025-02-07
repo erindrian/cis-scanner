@@ -14,17 +14,13 @@ pip install -r requirements.txt
 
 ## Usage
 
-To run the overall scanner, use the following command:
+To run the overall scanner, ensure you have set the `GOOGLE_APPLICATION_CREDENTIALS` environment variable to point to your service account key file. You can do this with the following command:
 
+```bash
+export GOOGLE_APPLICATION_CREDENTIALS="path/to/your/service_account.json"
 ```
-gcp-cis-scan
-```
 
-You can specify additional options as needed.
-
-### Bucket Scanning
-
-To run the bucket scanning functionality, use the following command:
+Then, use the following command to run the scanner:
 
 ```
 python3 src/main.py --project YOUR_PROJECT_ID

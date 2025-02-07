@@ -1,5 +1,5 @@
 CIS Benchmarks Scan Report,,,,,
-Date: 2025-02-06,,,,,
+Date: 2025-02-07,,,,,
 control_id,status,resource,message,severity,recommendation
 CIS 5.1,FAIL,gs://misconfigured_public_bucket,Public access granted via roles/storage.objectViewer,High,Remove public access
 CIS 5.2,FAIL,gs://misconfigured_public_bucket,Uniform bucket-level access disabled,Medium,Enable uniform bucket-level access
